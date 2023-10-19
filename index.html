@@ -1,29 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang en>
     <head>
-        <title>INDEX</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hello World</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1><strong><u>OTTO SUPERMARKET</u></strong></h1>
-        <p>welcome to my shop. I'm at your service. We have a variety of stuff for you.</p>
+        <div class="form-container">
+            <h2><center>Username</center> <span id="display-username"></span></h2>
+            <form>
+                <label for="username">username:</label>
+                <input type="text" id="username" name="username" required>
+                <button type="submit" onclick="return validateForm()">submit</button>
+            </form>
+        </div>
+        <div class="display-container">
+            
+        </div>
 
-<h3>Popular stock</h3>
-        <ul>
-            <li>bread</li>
-            <li>rice</li>
-            <li>eggs</li>
-            <li>mango splash</li>
+        <script>
+            function validateForm(){
+                
+                alert("Thank you for submitting");
 
-<h3>Remaining stock</h3>
-        <ol>
-            <li>jumpers</li>
-            <li>glasses</li>
-            <li>televisions</li>
-            <li>earrings</li>
-            <li>wigs</li>
-        </ol>
-        <h2>sample painting</h2>
-        <img src="C:\Users\HP\Downloads\art.jpg">
-        
+            }
+        </script>
     </body>
 </html>
